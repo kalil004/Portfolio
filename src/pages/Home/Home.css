@@ -1,0 +1,58 @@
+body {
+  text-align: center;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.main {
+  align-items: center;
+  background-color: #9BAAAD;
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  width: 90vw;
+}
+
+.social {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  color: black;
+  margin-top: 2rem;
+}
+
+.social a {
+  color: black;
+}
+
+.about-me {
+  text-align: center;
+}
+
+.about-me ul {
+  list-style-type: none; /* Remove marcadores de lista */
+  padding: 0; /* Remove espaçamento interno */
+  margin: 0 auto; /* Centraliza horizontalmente */
+  max-width: 600px; /* Define uma largura máxima para as listas */
+}
+
+.about-me li {
+  text-align: center; /* Ajusta o alinhamento do texto dentro dos itens da lista */
+  margin-bottom: 10px; /* Espaçamento entre os itens da lista */
+}
