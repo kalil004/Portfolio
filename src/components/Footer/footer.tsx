@@ -13,17 +13,17 @@ export default class Footer extends Component {
                     </div>
                     <div className="info">
                         <h2>Páginas</h2>
-                        <li>Início</li>
-                        <li>Currículo</li>
-                        <li>Projetos</li>
-                        <li>Certificados</li>
-                        <li>Sobre mim</li>
+                        <a href="/"><li>Início</li></a>
+                        <a href="/curriculo"><li>Currículo</li></a>
+                        <a href="/projetos"><li>Projetos</li></a>
+                        <a href="/certificados"><li>Certificados</li></a>
+                        <a href="/sobremim"><li>Sobre mim</li></a>
                     </div>
                     <div className="info">
                         <h2>Contatos</h2>
-                        <li>Linkedin</li>
-                        <li>Github</li>
-                        <li>Instagram</li>
+                        <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/kalil-pereira/"><li>Linkedin</li></a>
+                        <a target="_blank" rel="noopener noreferrer" href="https://github.com/kalil004"><li>Github</li></a>
+                        <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/kalil.004/"><li>Instagram</li></a>
                     </div>
                     <div className="info">
                         <h2>Recursos</h2>

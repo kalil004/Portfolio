@@ -33,3 +33,7 @@
     margin: 10;
     padding: 10px;
 }
+
+.footer a:visited {
+    color: white;
+}

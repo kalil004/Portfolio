@@ -7,19 +7,19 @@ export default class Navbar extends Component {
             <header className="header">
         <ul>
           <li>
-        <a href=''>Início</a>
+        <a href='/'>Início</a>
           </li>
           <li>
-        <a href=''>Currículo</a>
+        <a href='/curriculo'>Currículo</a>
           </li>
           <li>
-        <a href=''>Projetos</a>
+        <a href='/projetos'>Projetos</a>
           </li>
           <li>
-        <a href=''>Certificados</a>
+        <a href='/certificados'>Certificados</a>
           </li>
           <li>
-        <a href=''>Sobre mim</a>
+        <a href='/sobremim'>Sobre mim</a>
           </li>
         </ul>
       </header>
