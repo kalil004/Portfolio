@@ -46,13 +46,13 @@ li a {
 }
 
 .about-me ul {
-  list-style-type: none; /* Remove marcadores de lista */
-  padding: 0; /* Remove espaçamento interno */
-  margin: 0 auto; /* Centraliza horizontalmente */
-  max-width: 600px; /* Define uma largura máxima para as listas */
+  list-style-type: none; 
+  padding: 0; 
+  margin: 0 auto;
+  max-width: 600px; 
 }
 
 .about-me li {
-  text-align: center; /* Ajusta o alinhamento do texto dentro dos itens da lista */
-  margin-bottom: 10px; /* Espaçamento entre os itens da lista */
+  text-align: center; 
+  margin-bottom: 10px; 
 }

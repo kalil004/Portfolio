@@ -1,11 +1,9 @@
 import './Home.css';
-import Navbar from '../../components/Navbar/navbar';
-import Footer from '../../components/Footer/footer';
+
 
 function Home() {
   return (
     <div className="home">
-      <Navbar/>
 
       <div className='main'>
         <div className='main-text'>
@@ -32,8 +30,6 @@ function Home() {
         <li>Ensino Superior (2023 - atual) | Fatec São José dos Campos, no curso de Análise e Desenvolvimento de Sistemas </li>
         </ul>
       </div>
-
-      <Footer/>
     </div>
   );
 }

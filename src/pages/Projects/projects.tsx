@@ -1,14 +1,13 @@
-import './projects.css';
-import Navbar from '../../components/Navbar/navbar';
-import Footer from '../../components/Footer/footer';
+import Card from '../../components/ProjectCard/card';
+import { projetos } from '../../data/projetos';
 
 function Projects() {
     return (
         <div className='projects'>
-            <Navbar/>
+        <h1>Meus projetos</h1>
 
+        <Card projetosArray={projetos}/>
 
-            <Footer/>
         </div>
     )
 }

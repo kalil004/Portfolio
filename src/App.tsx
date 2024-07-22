@@ -4,10 +4,13 @@ import Curriculum from "./pages/CV/curriculum"
 import Projects from "./pages/Projects/projects"
 import AboutMe from "./pages/AboutMe/aboutme"
 import Certificates from "./pages/Certificates/certificates"
+import Navbar from "./components/Navbar/navbar"
+import Footer from "./components/Footer/footer"
 
 export default function App() {
     return (
         <BrowserRouter>
+        <Navbar/>
         <Routes>
             <Route path="/">
             <Route path="/" element={<Home/>}/>
@@ -17,6 +20,7 @@ export default function App() {
                 <Route path="/sobremim" element={<AboutMe/>}/>
             </Route>
         </Routes>
+        <Footer/>
         </BrowserRouter>
     )
 }
