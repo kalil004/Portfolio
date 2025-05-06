@@ -1,0 +1,106 @@
+/* Definições globais */
+body {
+    background-color: #121212; /* Cor de fundo escura */
+    color: #ffffff; /* Texto branco */
+    font-family: 'Courier New', monospace;
+  }
+  
+  .skills-container {
+    padding: 3rem 2rem;
+    background-color: #121212; /* Fundo escuro */
+    color: #ffffff; /* Texto branco */
+  }
+  
+  .skills-title {
+    font-size: 2.8rem;
+    margin-bottom: 2.5rem;
+    color: #ffffff;
+    border-bottom: 4px solid #5bc0de;
+    display: inline-block;
+    padding-bottom: 0.5rem;
+    box-shadow: 4px 4px 0 #5bc0de;
+    text-align: center; /* Adiciona centralização horizontal */
+    width: 100%; /* Garante que ocupe toda a largura disponível */
+}
+
+  
+  .skills-grid {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(2, minmax(300px, 1fr));
+  }
+  
+  .skill-category {
+    background-color: #1e1e2f; /* Cor de fundo para cada categoria */
+    padding: 1.5rem;
+    border-left: 4px solid #5bc0de;
+    box-shadow: 4px 4px 0 #5bc0de;
+    border-radius: 12px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .skill-category:hover {
+    background-color: #2d2f45; /* Cor de fundo quando passa o mouse */
+  }
+  
+  .skill-category h3 {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+    color: #ffffff;
+    text-align: center;
+    border-bottom: 2px dashed #ccc;
+    padding-bottom: 0.5rem;
+  }
+  
+  .skill-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .skill-card {
+    background-color: #2d2f45; /* Fundo de cada card */
+    border: 2px solid #5bc0de;
+    border-radius: 10px;
+    width: 100px;
+    height: 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 3px 3px 0 #1e1e2f;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    cursor: default;
+    color: #ffffff; /* Cor do texto dentro do card */
+  }
+  
+  .skill-card:hover {
+    transform: scale(1.05);
+    box-shadow: 4px 4px 0 #5bc0de;
+    background-color: #3a3d5c;
+  }
+  
+  .skill-icon {
+    font-size: 2.5rem;
+    color: #5bc0de; /* Ícones em azul */
+    margin-bottom: 0.5rem;
+  }
+  
+  .skill-card span {
+    font-size: 0.9rem;
+    font-weight: bold;
+  }
+
+  .skill-card {
+    animation: fadeIn 0.6s ease forwards;
+    opacity: 0;
+  }
+  
+  @keyframes fadeIn {
+    to {
+      opacity: 1;
+    }
+  }
+  
+  

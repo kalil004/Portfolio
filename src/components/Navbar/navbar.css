@@ -1,21 +1,42 @@
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-  }
-  
-  li {
-    text-decoration: none;
-    display: block;
-  }
-  
-  li a {
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 16px;
-    text-decoration: none;
-  }
+/* navbar.css */
 
-  
+.custom-navbar {
+  background-color: #1e1e2f; /* tom frio e escuro */
+  border-bottom: 3px solid #5bc0de; /* ciano/brutalista */
+  box-shadow: 4px 4px 0 #5bc0de;
+  font-family: 'Courier New', monospace;
+}
+
+.navbar-brand {
+  color: #ffffff !important;
+  font-size: 1.5rem;
+}
+
+.navbar-nav .nav-link {
+  color: #cccccc !important;
+  padding: 0.5rem 1rem;
+  position: relative;
+  font-weight: 600;
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: center;  /* Centraliza horizontalmente */
+  width: 100%;              /* Ocupa toda a largura do container */
+}
+
+.navbar-nav .nav-link:hover {
+  background-color: #5bc0de;
+  color: #1e1e2f !important;
+  transition: 0.3s;
+  border-radius: 4px;
+}
+
+.navbar-toggler {
+  border: 2px solid #5bc0de;
+  background-color: #1e1e2f;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(91, 192, 222, 1)' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}

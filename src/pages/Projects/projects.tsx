@@ -1,5 +1,6 @@
 import Card from '../../components/ProjectCard/card';
 import { projetos } from '../../data/projetos';
+import './projects.css'
 
 function Projects() {
     return (

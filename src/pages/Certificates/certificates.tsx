@@ -1,5 +1,6 @@
 import CardC from '../../components/CertificateCard/cardC';
 import { certificados } from '../../data/certificados';
+import './certificates.css';
 
 function Certificates() {
     return (
