@@ -3,8 +3,7 @@ import './Skills.css';
 
 import {
   FaHtml5, FaCss3Alt, FaReact, FaNodeJs, FaJava,
-  FaDocker, FaAws, FaPython, FaDatabase,
-  FaAngular, FaBootstrap, FaGitAlt
+  FaDocker, FaAws, FaPython, FaAngular, FaBootstrap
 } from 'react-icons/fa';
 import {
   SiSharp, SiTypescript, SiPostgresql, SiMysql, SiMongodb, SiGooglecloud
@@ -18,6 +17,7 @@ type SkillCategory = {
     icon: IconType;
   }[];
 };
+
 
 const skillCategories: SkillCategory[] = [
   {
@@ -67,12 +67,15 @@ function Skills() {
           <div className="skill-category" key={idx}>
             <h3>{category.title}</h3>
             <div className="skill-items">
-              {category.skills.map((skill, index) => (
-                <div className="skill-card" key={index}>
-                  {React.createElement(skill.icon, { className: 'skill-icon' })}
-                  <span>{skill.name}</span>
-                </div>
-              ))}
+              {category.skills.map((skill, index) => {
+                const Icon = skill.icon;
+                return (
+                  <div className="skill-card" key={index}>
+                    <Icon className="skill-icon" />
+                    <span>{skill.name}</span>
+                  </div>
+                );
+              })}
             </div>
           </div>
         ))}

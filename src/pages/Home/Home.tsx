@@ -1,5 +1,10 @@
+import * as React from 'react';
 import './Home.css';
 import { FaGithub, FaLinkedin, FaInstagram } from 'react-icons/fa';
+
+const FaGithubIcon = FaGithub as React.FC<React.SVGProps<SVGSVGElement>>;
+const FaLinkedinIcon = FaLinkedin as React.FC<React.SVGProps<SVGSVGElement>>;
+const FaInstagramIcon = FaInstagram as React.FC<React.SVGProps<SVGSVGElement>>;
 
 function Home() {
   return (
@@ -30,7 +35,7 @@ Se você curte tecnologia, inovação e bons desafios, bem-vindo a bordo!
           href="https://github.com/kalil004"
           aria-label="GitHub"
         >
-          <FaGithub />
+          <FaGithubIcon />
         </a>
         <a
           target="_blank"
@@ -38,7 +43,7 @@ Se você curte tecnologia, inovação e bons desafios, bem-vindo a bordo!
           href="https://www.linkedin.com/in/kalil-pereira/"
           aria-label="LinkedIn"
         >
-          <FaLinkedin />
+          <FaLinkedinIcon />
         </a>
         <a
           target="_blank"
@@ -46,7 +51,7 @@ Se você curte tecnologia, inovação e bons desafios, bem-vindo a bordo!
           href="https://www.instagram.com/kalil.004/"
           aria-label="Instagram"
         >
-          <FaInstagram />
+          <FaInstagramIcon />
         </a>
       </div>
       <div className='about-me'>
